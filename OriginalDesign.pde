@@ -8,7 +8,7 @@ void setup()
 void draw()
 { 
   background(3,45,98);
-  arc();
+  guardian();
   eye();
   tear();
   markers();
@@ -54,7 +54,7 @@ void tear()
    
    
 }
-void arc(){
+void guardian(){
 strokeWeight(3);
 noFill(); 
 arc(300,310,150,120, 0 ,PI);
